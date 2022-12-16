@@ -7,7 +7,7 @@ exports.getAllArgonautes = (req, res, next) => {
         .catch(error => res.status(400).json({ error }));
 };
 
-exports.create = (req,res,next) => {
+exports.create = (req, res, next) => {
     // const argonauteObject = JSON.parse(req.body.argonaute);
     // delete argonauteObject._id;
     // delete argonauteObject.__v;
