@@ -8,9 +8,6 @@ exports.getAllArgonautes = (req, res, next) => {
 };
 
 exports.create = (req, res, next) => {
-    // const argonauteObject = JSON.parse(req.body.argonaute);
-    // delete argonauteObject._id;
-    // delete argonauteObject.__v;
     const argonaute = new Argonaute({
         name: req.body.name
     });
